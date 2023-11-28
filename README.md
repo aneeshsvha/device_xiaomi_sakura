@@ -1,4 +1,4 @@
-# Common device tree for Xiaomi MSM8953 devices
+# device tree for Xiaomi Redmi 6 Pro devices
 
 ```
 #
