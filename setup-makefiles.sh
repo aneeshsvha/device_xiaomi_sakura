@@ -9,9 +9,7 @@
 set -e
 
 # Required
-export DEVICE=sakura
-export DEVICE_COMMON=msm8953-common
-export VENDOR=xiaomi
+export DEVICE=daisy
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
