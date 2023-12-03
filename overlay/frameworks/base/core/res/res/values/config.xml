@@ -474,4 +474,8 @@
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
      <bool name="config_showNavigationBar">true</bool>
+	 
+	 <!-- Whether of not wallpaper scrolling should be on or not. It may cuz lag in some low-end devices -->
+     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
+
 </resources>
