@@ -13,7 +13,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    DaisyFrameworkOverlay
+    SakuraFrameworkOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
