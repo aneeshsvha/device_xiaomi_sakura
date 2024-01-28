@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8953
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_msm8953
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/daisy/daisy-vendor.mk)
