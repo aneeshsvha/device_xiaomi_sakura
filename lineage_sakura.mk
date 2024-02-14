@@ -11,8 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit from daisy device
-AB_OTA_UPDATER := false
-$(call inherit-product, device/xiaomi/daisy/device.mk)
+$(call inherit-product, device/xiaomi/sakura/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
