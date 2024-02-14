@@ -32,3 +32,19 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/sakura/sakura:9/PKQ1.180917.001/V12.0.1.0.PDICNXM:user/release-keys"
+
+# Matrixx 
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_MAINTAINER := Aneesh
+MATRIXX_CHIPSET := Snapdragon625
+MATRIXX_BATTERY := 4000mah
+MATRIXX_DISPLAY := 1080X2280
+
+# Gapps
+WITH_GMS := false
+
+# BOOT_ANIMATION
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Nuke AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
