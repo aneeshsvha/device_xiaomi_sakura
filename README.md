@@ -1,8 +1,8 @@
-# Common device tree for Xiaomi MSM8953 devices
+# Device tree for Redmi 6 Pro (sakura)
 
 ```
 #
-# Copyright (C) 2017-2021 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

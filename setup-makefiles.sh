@@ -5,13 +5,12 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
 set -e
 
-export DEVICE=daisy
+export DEVICE=sakura
 export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
-
-"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -30,7 +29,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "daisy mido sakura tissot vince ysl"
+write_headers "sakura"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
@@ -51,3 +50,5 @@ if [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
     # Finish
     write_footers
 fi
+
+"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
