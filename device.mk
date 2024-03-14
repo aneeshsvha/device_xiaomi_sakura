@@ -24,7 +24,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/fingerprint/opensource/interfaces
+    vendor/fingerprint/opensource/interfaces \
+    hardware/xiaomi
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -354,11 +355,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/xiaomi
 
 # Telephony
 PRODUCT_PACKAGES += \
