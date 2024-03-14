@@ -471,4 +471,8 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
+
+    <!-- Whether of not wallpaper scrolling should be on or not. It may cuz lag in some low-end devices -->
+     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
+
 </resources>
