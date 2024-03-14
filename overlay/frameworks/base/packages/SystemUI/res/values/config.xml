@@ -27,4 +27,6 @@
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
+    <!-- Whether your device support both of the two bands(2,4Ghz and 5Ghz)-->
+    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
 </resources>
